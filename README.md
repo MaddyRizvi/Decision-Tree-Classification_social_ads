@@ -1,6 +1,6 @@
 # Decision Tree Classification on Social Network Ads Dataset
 
-This project demonstrates how to apply the **Decision Tree Classification** algorithm on the Social Network Ads dataset using Python and scikit-learn. It includes data preprocessing, model training, prediction, evaluation, and visualization of decision boundaries for both training and test sets.
+This project demonstrates how to apply the **Decision Tree Classification** algorithm on the Social Network Ads dataset using Python and scikit-learn. It includes data preprocessing, model training, prediction, evaluation, and visualization of decision boundaries for both training and test sets. **This project can be easily adapted to work with other datasets** containing different or additional independent variables.
 
 ## 📁 Dataset
 
@@ -31,13 +31,25 @@ The Decision Tree Classifier is trained using the 'entropy' criterion (informati
 
 ## 📊 Results
 
-Visualizations include clear decision boundaries on:
-- Training set
-- ![Image](https://github.com/user-attachments/assets/76fa441c-a689-4c70-a1e4-e010bb11d7cc)
-- Test set
-- ![Image](https://github.com/user-attachments/assets/0ae07154-283e-4961-b3a3-cef154646437)
+The model's performance is evaluated using both visual and quantitative methods:
 
-The confusion matrix and accuracy score are printed to evaluate the model.
+### ✅ Decision Boundary Visualizations
+
+**Training Set:**
+
+![Training Set](https://github.com/user-attachments/assets/76fa441c-a689-4c70-a1e4-e010bb11d7cc)
+
+**Test Set:**
+
+![Test Set](https://github.com/user-attachments/assets/0ae07154-283e-4961-b3a3-cef154646437)
+
+### ✅ Evaluation Metrics
+
+- Confusion Matrix
+- Accuracy Score
+
+These metrics help assess how well the Decision Tree Classifier performs on unseen data.
+
 
 ## 🛠️ Installation
 
