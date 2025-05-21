@@ -1,38 +1,45 @@
-# Contributing Guidelines
+# Contributing to Decision Tree Classifier on Social Network Ads
 
-Thank you for considering contributing to this project! Here's how you can help:
+First off, thanks for taking the time to contribute! 🙌
 
-## 🧑‍💻 How to Contribute
+The goal of this project is to provide a clear and simple implementation of a Decision Tree Classifier on a real-world dataset. Any contributions that help improve performance, structure, or readability are welcome.
 
-1. **Fork the Repository**
-   - Create a personal copy of the repository on your GitHub account.
+## 🧰 Ways to Contribute
 
-2. **Clone the Repository**
-   - Clone the forked repository to your local machine:
-     ```bash
-     git clone https://github.com/MaddyRizvi/Naive-Bayes_social_network_analysis.git
-     ```
+- Fix bugs or issues
+- Improve code efficiency or readability
+- Add feature selection or hyperparameter tuning
+- Improve the visualizations
+- Add support for other classification algorithms
+- Create a Jupyter Notebook version
+- Write tests or error handling
 
-3. **Make Changes**
-   - Add features, improve visualization, optimize model, or clean up code.
+## 🚀 How to Contribute
 
-4. **Test Your Code**
-   - Ensure the notebook runs without errors from start to finish.
+1. **Fork** the repository
+2. Create a new **branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit** your changes:
+   ```bash
+   git commit -m "Added a new feature"
+   ```
+4. **Push** to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a **pull request**
 
-5. **Submit a Pull Request**
-   - Push your changes and open a PR against the `main` branch of the original repo.
+## ✅ Code Guidelines
 
-## ✅ Good First Issues
+- Follow Pythonic style (PEP8)
+- Use meaningful variable names
+- Write comments for complex logic
+- Keep commits atomic and meaningful
 
-- Add grid search or cross-validation
-- Add precision, recall, and F1 score metrics
-- Include ROC curve visualization
-- Implement other Naive Bayes variants (e.g., MultinomialNB)
+## 💬 Need Help?
 
-## 📢 Code of Conduct
+Feel free to open an issue if you find bugs, need clarification, or want to suggest a feature.
 
-Please be respectful and open-minded. Abusive or inappropriate behavior will not be tolerated.
-
----
-
-Happy coding! 🚀
+Thanks again for contributing!
