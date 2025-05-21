@@ -33,7 +33,9 @@ The Decision Tree Classifier is trained using the 'entropy' criterion (informati
 
 Visualizations include clear decision boundaries on:
 - Training set
+- ![Image](https://github.com/user-attachments/assets/76fa441c-a689-4c70-a1e4-e010bb11d7cc)
 - Test set
+- ![Image](https://github.com/user-attachments/assets/0ae07154-283e-4961-b3a3-cef154646437)
 
 The confusion matrix and accuracy score are printed to evaluate the model.
 
@@ -52,7 +54,7 @@ The confusion matrix and accuracy score are printed to evaluate the model.
 
 3. Run the script:
    ```bash
-   python decision_tree_social_ads.py
+   python decision_tree_classification.py
    ```
 
 ## 📂 Project Structure
@@ -60,7 +62,7 @@ The confusion matrix and accuracy score are printed to evaluate the model.
 ```
 decision-tree-social-ads/
 │
-├── decision_tree_social_ads.py   # Main Python script
+├── decision_tree_classification.py   # Main Python script
 ├── Social_Network_Ads.csv        # Dataset file
 ├── README.md                     # Project documentation
 └── CONTRIBUTING.md               # Open contributions guidelines
